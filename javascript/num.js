@@ -14,7 +14,7 @@ let nums=34.59464;
 console.log(nums.toPrecision(3));
 
 
-console.log(Math);
+console.log(Math);  //0 to 1
 
 console.log(Math.abs(-6));
 
