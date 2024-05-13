@@ -8,8 +8,8 @@ vector<vector<float>>bucket(n,vector<float>());
 
 for(int i=0;i<n;i++){
         int bucketIndex=n*a[i];
-        bucket[bucketIndex].push_back(a[i]);
-}
+        bucket[bucketIndex].push_back(a[i]); 
+} 
 
 for(int i=0;i<n;i++){
     if(!bucket[i].empty()){
@@ -24,7 +24,7 @@ for(int i=0;i<n;i++){
        a[k++]=bucket[i][j];
 }
 }
-    
+
 }
 
 
@@ -40,4 +40,4 @@ int main(){
         cout<<arr[i]<<" ";
        }
     return 0;
-}
+}  
