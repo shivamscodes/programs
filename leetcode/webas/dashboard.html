@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #423f3f;
+            margin: 0;
+            padding: 20px;
+        }
+        .dashboard {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .dashboard label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .dashboard input[type="text"],
+        .dashboard input[type="email"],
+        .dashboard input[type="date"],
+        .dashboard input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .dashboard input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .dashboard input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Dashboard</h2>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="degree">College Degree:</label>
+            <input type="text" id="degree" name="degree" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+        </form>
+    </div>
+</body>
+</html>
