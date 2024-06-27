@@ -189,7 +189,7 @@ int main(){
      int arr[]={10,3,8,9,5,13,18,14,11,70};
 
      builtheap(arr,10);
-      sort(arr,n);
+      sort(arr,10);
 
      for(int i=0;i<10;i++){
         cout<<arr[i]<<" ";

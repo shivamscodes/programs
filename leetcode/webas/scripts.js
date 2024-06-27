@@ -33,4 +33,4 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
         text: 'You have successfully logged in.'
     });
     e.preventDefault();  // prevent page refresh or actual submission
-});
+}); 
