@@ -6,7 +6,7 @@ class maxheap{
     int *arr;
     int size;
     int total_size;
-
+  
     maxheap(int n){
         arr=new int[n];
         size=0;
