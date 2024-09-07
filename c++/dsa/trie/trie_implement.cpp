@@ -23,6 +23,8 @@ class trie{
    trie(){
     root=new trienode('\0');
    }
+
+   
     void insertutil(trienode *root,string word){
         //base case
         if(word.length()==0){
