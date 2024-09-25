@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height : 100vh;
+   background-color: rgb(230, 139, 155);
+   font-family: 'permanent Marker',cursive;
+}
+
+
+
+
+
