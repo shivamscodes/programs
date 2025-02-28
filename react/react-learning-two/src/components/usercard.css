@@ -1,0 +1,17 @@
+.usercontainer{
+    background-color: aliceblue;
+    padding: 25px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#userimg{
+    height: 140;
+    width:70%;
+    
+}
