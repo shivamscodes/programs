@@ -1,0 +1,64 @@
+.mode{
+    width : 80px;
+    height: 40px;
+    background-color: lightgray;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.dark{
+    visibility: hidden;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    transition: .4s;
+}
+
+.circle{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 3px;
+    position: absolute;
+    left: 3px;
+    cursor: pointer;
+    animation: slideoff .4s linear forwards;
+}
+
+
+.dark:checked + .mode {
+    background-color: grey;
+}
+
+
+.dark:checked + .mode .circle{
+    animation: slideon .4s linear forwards;
+    background-color: black;
+}
+
+
+
+
+@keyframes slideon{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(40px);
+    }
+}
+
+@keyframes slideoff{
+    0%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

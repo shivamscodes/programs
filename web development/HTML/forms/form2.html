@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <form >
+    <h1>Job Application</h1>
+
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <br>
+    <input type="text" id="email">
+    <br><br>
+    
+    
+    <label for="phone">Phone:</label>
+    <br>
+    <input type="tel" id="phone">
+    <br><br>
+
+    <label for="resume">Resume:</label>
+    <br>
+    <input type="file" id="resume">
+    <br><br>
+
+    <label for="experience">Experience(years):</label>
+    <br>
+    <input type="number" id="experience" min="0" max="50">
+    <br><br>
+
+    <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" id="html">
+        <label for="html">html</label>
+        <br>
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="js">
+        <label for="js">js</label>
+        
+    </fieldset>
+
+    <br><br>
+    <label for="education">Highest Education:</label>
+    <br>
+    <select name="education" id="education">
+        <option value="masters">masters</option>
+        <option value="phd">PHD</option>
+        <option value="bacholer">Bacholer</option>
+        <option value="10">10th</option>
+        <option value="12">12th</option>
+    </select>
+    <br><br>
+
+     <legend>Available:</legend>
+     <input type="radio" id="fulltime">
+     <label for="fulltime">Full time</label>
+    <br>
+     <input type="radio" id="parttime">
+     <label for="parttime">Part time</label>
+<br><br>
+ 
+<label for="comments">Adittional comments:</label>
+<br>
+<textarea name="comments" id="sommments" rows="8" cols="50"></textarea>
+      <br>
+
+      <input type="button" value="submit" id="button">
+
+
+    </form>
+</body>
+</html>
