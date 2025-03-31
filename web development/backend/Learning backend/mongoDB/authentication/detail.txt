@@ -1,0 +1,14 @@
+cookuies and sessions
+
+1) staring mai sending cookies on your local device
+
+
+2) bcrypt kaise use kare  for encryption and decryption
+
+
+ 3)jwt
+ //using jwt 
+//  learing its 3 parts ir make for Authentication of the user 
+
+
+ 
