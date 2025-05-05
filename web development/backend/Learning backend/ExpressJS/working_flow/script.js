@@ -79,6 +79,7 @@ app.use(function(req,res,next){
  
  
  app.get("/",function(req,res){
+    console.log("yhai")
      res.send("champion going to be ");
      
  })
